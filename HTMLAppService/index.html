@@ -1,1 +1,15 @@
+<!DOCTYPE html>
 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        window.myVar = '{{ env('TestSettings') }}';
+    </script>
+    <meta charset="utf-8" />
+    <title>Sample Application to Test Env variable</title>
+</head>
+<body>
+  <p>This is a sample application to test environment variable concept in HTML page</p>
+  <p><script  type="text/javascript">document.write(myVar)</P>
+</body>
+</html>
